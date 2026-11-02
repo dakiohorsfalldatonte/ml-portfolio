@@ -1,0 +1,13 @@
+# Datasets (download them from Kaggle)
+data/
+*.csv
+*.zip
+
+# Saved models
+*.pkl
+*.keras
+
+# Python and Jupyter files
+__pycache__/
+.ipynb_checkpoints/
+kaggle.json
