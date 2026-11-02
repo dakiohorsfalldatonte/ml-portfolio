@@ -1,8 +1,8 @@
 # Machine Learning Projects
 
-Hi, I'm Datonte. I have a BSc in Computer Science and I'm studying for an MSc in FinTech. These are three machine learning projects I built while learning data science.
+Hi, I'm Datonte. I have a BSc in Computer Science and I'm studying for an MSc in FinTech. These are the machine learning projects I built while learning data science. The first three are my main projects.
 
-## Projects
+## Main projects
 
 ### 1. Bank Customer Churn
 **Notebook:** [Bank_Churn_Logistic_Regression.ipynb](Bank_Churn_Logistic_Regression.ipynb)
@@ -33,6 +33,17 @@ Looks at photos of blood cells and tells if they are infected with malaria.
 - **Model:** a convolutional neural network (CNN) built with TensorFlow/Keras, with early stopping
 - **Result:** 94.7% accuracy and 0.98 ROC-AUC on the test set
 - **Extra:** the model is saved, and there is a simple upload box to test it on a new image
+
+## More projects
+
+| Project | What it does | Main result |
+|---|---|---|
+| [Breast Cancer Classification (Neural Network)](Breast_Cancer_Classification_Using_ANN.ipynb) | Neural network (TensorFlow/Keras) that classifies tumours as malignant or benign from 30 features, using 569 patient records | 95% test accuracy |
+| [Breast Cancer (Logistic Regression)](Breast_Cancer_Logistic_Regression.ipynb) | The same problem solved with logistic regression | 95.6% test accuracy, 95.3% recall |
+| [Heart Disease Prediction](Heart_disease_model.ipynb) | Compares logistic regression and random forest, using SMOTE for class balance and PCA | 86.7% test accuracy, 0.96 ROC-AUC |
+| [Face Mask Detection](Face_mask_detection_model.ipynb) | CNN that tells whether a person in a photo is wearing a face mask, trained on 7,553 images | 93% test accuracy |
+| [Boston House Prices](Boston_House_Prices_Linear_Regression.ipynb) | Linear regression to predict house prices | R² of 0.67 on the test set |
+| [Machine Learning Practice](Customer_Churn_MachineLearning.ipynb) | Practice notebook where I tried regression and classification models (logistic regression, decision trees, random forest, XGBoost, LightGBM, CatBoost) on several datasets | Practice work |
 
 ## Skills shown
 - Python: pandas, NumPy, Matplotlib, Seaborn
